@@ -39,6 +39,11 @@
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
 		ED2971652150620600B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2971642150620600B7C4FE /* JavaScriptCore.framework */; };
+		181C1BE9C3B244AB933BCD27 /* libRNImageFilterKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A2A1E94CE70495EA9DFA1BE /* libRNImageFilterKit.a */; };
+		7BE7286EFDF84C32B687D735 /* IFKLinearGradient.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = BC689F033DB84E8CB6823F34 /* IFKLinearGradient.cikernel */; };
+		14AF158579A94D648D3778F9 /* IFKRadialGradient.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 302DCE8860A0411BA578CF36 /* IFKRadialGradient.cikernel */; };
+		B9C931AE92E943D89AE3D974 /* IFKSweepGradient.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = B50883E22C8F4FE5925116F1 /* IFKSweepGradient.cikernel */; };
+		B1A8419DDD404B9694BD1A41 /* IFKXorCompositing.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 474A754B7262430595A523DF /* IFKXorCompositing.cikernel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -346,6 +351,12 @@
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		FF0BF0A0226F4C4AA9B039DE /* RNImageFilterKit.xcodeproj */ = {isa = PBXFileReference; name = "RNImageFilterKit.xcodeproj"; path = "../node_modules/react-native-image-filter-kit/ios/RNImageFilterKit.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		7A2A1E94CE70495EA9DFA1BE /* libRNImageFilterKit.a */ = {isa = PBXFileReference; name = "libRNImageFilterKit.a"; path = "libRNImageFilterKit.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		BC689F033DB84E8CB6823F34 /* IFKLinearGradient.cikernel */ = {isa = PBXFileReference; name = "IFKLinearGradient.cikernel"; path = "../node_modules/react-native-image-filter-kit/ios/Resources/IFKLinearGradient.cikernel"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		302DCE8860A0411BA578CF36 /* IFKRadialGradient.cikernel */ = {isa = PBXFileReference; name = "IFKRadialGradient.cikernel"; path = "../node_modules/react-native-image-filter-kit/ios/Resources/IFKRadialGradient.cikernel"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B50883E22C8F4FE5925116F1 /* IFKSweepGradient.cikernel */ = {isa = PBXFileReference; name = "IFKSweepGradient.cikernel"; path = "../node_modules/react-native-image-filter-kit/ios/Resources/IFKSweepGradient.cikernel"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		474A754B7262430595A523DF /* IFKXorCompositing.cikernel */ = {isa = PBXFileReference; name = "IFKXorCompositing.cikernel"; path = "../node_modules/react-native-image-filter-kit/ios/Resources/IFKXorCompositing.cikernel"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -374,6 +385,7 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
+				181C1BE9C3B244AB933BCD27 /* libRNImageFilterKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,6 +575,7 @@
 				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
+				FF0BF0A0226F4C4AA9B039DE /* RNImageFilterKit.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -614,6 +627,10 @@
 		EC06299BE56E4276BFDC8DEB /* Resources */ = {
 			isa = "PBXGroup";
 			children = (
+				BC689F033DB84E8CB6823F34 /* IFKLinearGradient.cikernel */,
+				302DCE8860A0411BA578CF36 /* IFKRadialGradient.cikernel */,
+				B50883E22C8F4FE5925116F1 /* IFKSweepGradient.cikernel */,
+				474A754B7262430595A523DF /* IFKXorCompositing.cikernel */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -1065,6 +1082,10 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				7BE7286EFDF84C32B687D735 /* IFKLinearGradient.cikernel in Resources */,
+				14AF158579A94D648D3778F9 /* IFKRadialGradient.cikernel in Resources */,
+				B9C931AE92E943D89AE3D974 /* IFKSweepGradient.cikernel in Resources */,
+				B1A8419DDD404B9694BD1A41 /* IFKXorCompositing.cikernel in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1199,9 +1220,11 @@
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageKitDemo.app/ImageKitDemo";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-image-filter-kit/ios/**",
 				);
 			};
 			name = Debug;
@@ -1223,9 +1246,11 @@
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageKitDemo.app/ImageKitDemo";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-image-filter-kit/ios/**",
 				);
 			};
 			name = Release;
@@ -1248,6 +1273,7 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-image-filter-kit/ios/**",
 				);
 			};
 			name = Debug;
@@ -1269,6 +1295,7 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-image-filter-kit/ios/**",
 				);
 			};
 			name = Release;
@@ -1298,9 +1325,11 @@
 				TVOS_DEPLOYMENT_TARGET = 9.2;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-image-filter-kit/ios/**",
 				);
 			};
 			name = Debug;
@@ -1330,9 +1359,11 @@
 				TVOS_DEPLOYMENT_TARGET = 9.2;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-image-filter-kit/ios/**",
 				);
 			};
 			name = Release;
@@ -1361,9 +1392,11 @@
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-image-filter-kit/ios/**",
 				);
 			};
 			name = Debug;
@@ -1392,9 +1425,11 @@
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-image-filter-kit/ios/**",
 				);
 			};
 			name = Release;
